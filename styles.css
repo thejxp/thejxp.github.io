@@ -3,40 +3,66 @@ html {
 }
 
 body {
-    background-color: rgba(0,0,0,0.00);
-    background-position: center;
-    background-size: cover;
     color: black;
     text-align: center;
     padding-top: 5%;
     font-family: 'Inconsolata', monospace;
-
 }
 
-.nav {
-    color: white;
+hr {
     padding-bottom: 20px;
+}
+
+.directory {
+    text-align: center;
+}
+
+nav {
+    color: white;
     font-size: 2.0em;
     font-family: 'Reenie Beanie', cursive;
 }
 
+a{
+    color: #00a0e0;
+}
+
+a.wicc{
+    background-color: rgba(124, 216, 200, 0.32);
+    color: black;
+}
+a.wicc:hover{
+    background-color: rgba(124, 216, 200, 0.58);
+    text-decoration: none;
+}
+
+a.combplex{
+    background-color: rgba(255, 248, 119, 0.6);
+    color: black;
+}
+
+a.combplex:hover{
+    background-color: rgb(229, 222, 98, 0.7);
+    text-decoration: none;
+}
 #me {
     vertical-align: middle;
     width:170px;
-    border-radius: 50%;
-    margin-right: 2%;
-    /*align-self: middle;*/
-
+    border-radius: 20%;
+    /*margin-right: 2%;*/
+    z-index: 10;
 }
 
 #me.mobile{
     width: 22vw;
+    position: fixed;
     /*align-self: middle;*/
 }
 
 #info {
+    padding-top: 2.5%;
     text-align: left;
-    width: 60%;
+    width: 90%;
     /*margin: 0 100px 0 100px;*/
 }
 
@@ -45,10 +71,11 @@ body {
 }
 
 h1 {
-    font-size: 4.0em;
+    padding-top:0.1em;
+    font-size: 3.5em;
     font-family: 'Abril Fatface', cursive;
     text-transform: lowercase;
-    letter-spacing: 0.1em;
+    letter-spacing: 0.13em;
 }
 
 h1.mobile{
