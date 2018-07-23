@@ -78,6 +78,7 @@ h1.mobile{
 .btn-primary {
     background-color: #359dff;
     border-color: #359dff;
+    letter-spacing: 0.05em;
 }
 
 .btn-primary:hover {
