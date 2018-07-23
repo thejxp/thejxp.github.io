@@ -27,24 +27,15 @@ a{
     color: #00a0e0;
 }
 
-a.wicc{
+a.org{
     background-color: rgba(124, 216, 200, 0.32);
     color: black;
 }
-a.wicc:hover{
+a.org:hover{
     background-color: rgba(124, 216, 200, 0.58);
     text-decoration: none;
 }
 
-a.combplex{
-    background-color: rgba(255, 248, 119, 0.6);
-    color: black;
-}
-
-a.combplex:hover{
-    background-color: rgb(229, 222, 98, 0.7);
-    text-decoration: none;
-}
 #me {
     vertical-align: middle;
     width:170px;
