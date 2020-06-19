@@ -15,13 +15,12 @@ body {
 
 nav {
     color: white;
-    font-size: 2.0em;
-    font-family: 'Reenie Beanie', cursive;
-    /*border: 1px solid black;*/
+    font-size: 1.2em;
+    font-family: 'Roboto', sans-serif;
 }
 
 a{
-    color: #00a0e0;
+    color: #0f8fef;
 }
 
 a.org{
@@ -53,7 +52,7 @@ a.org:hover{
 h1 {
     padding-top:0.1em;
     font-size: 3.5em;
-    font-family: 'Abril Fatface', cursive;
+    font-family: 'Lora', serif;
     text-transform: lowercase;
     letter-spacing: 0.13em;
 }
@@ -108,4 +107,3 @@ h1.mobile{
 .recs a{
     margin-top: -20%;
 }
-
